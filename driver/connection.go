@@ -1316,7 +1316,7 @@ func (c *conn) _execDirect(query string, commit bool) (driver.Result, error) {
 		return nil, err
 	}
 	if c.pr.FunctionCode() == p.FcDDL {
-		return driver.ResultNoRows, nil
+		//		return driver.ResultNoRows, nil
 	}
 	return driver.RowsAffected(numRow), nil
 }
@@ -1474,7 +1474,7 @@ func (c *conn) _exec(pr *prepareResult, nvargs []driver.NamedValue, hasLob, comm
 	}
 
 	if fc == p.FcDDL {
-		return driver.ResultNoRows, nil
+		//		return driver.ResultNoRows, nil
 	}
 	return driver.RowsAffected(rowsAffected), nil
 }
