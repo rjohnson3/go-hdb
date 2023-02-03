@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SAP/go-hdb/driver/internal/protocol/x509"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/x509"
 )
 
 func testX509Validate(t *testing.T) {

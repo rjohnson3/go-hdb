@@ -9,7 +9,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/SAP/go-hdb/driver"
+	"github.com/rjohnson3/go-hdb/driver"
 )
 
 // ExampleNewBasicAuthConnector shows how to open a database with the help of a connector using basic authentication.

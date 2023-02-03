@@ -8,7 +8,7 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/SAP/go-hdb/driver"
+	"github.com/rjohnson3/go-hdb/driver"
 )
 
 // ExampleConn-HDBVersion shows how to retrieve hdb server info with the help of sql.Conn.Raw().

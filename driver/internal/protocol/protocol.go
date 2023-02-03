@@ -6,8 +6,8 @@ import (
 	"io"
 	"math"
 
-	"github.com/SAP/go-hdb/driver/internal/protocol/encoding"
-	"github.com/SAP/go-hdb/driver/sqltrace"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/encoding"
+	"github.com/rjohnson3/go-hdb/driver/sqltrace"
 	"golang.org/x/text/transform"
 )
 

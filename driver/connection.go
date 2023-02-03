@@ -17,13 +17,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SAP/go-hdb/driver/dial"
-	e "github.com/SAP/go-hdb/driver/internal/errors"
-	p "github.com/SAP/go-hdb/driver/internal/protocol"
-	"github.com/SAP/go-hdb/driver/internal/protocol/levenshtein"
-	"github.com/SAP/go-hdb/driver/internal/protocol/x509"
-	"github.com/SAP/go-hdb/driver/sqltrace"
-	"github.com/SAP/go-hdb/driver/unicode/cesu8"
+	"github.com/rjohnson3/go-hdb/driver/dial"
+	e "github.com/rjohnson3/go-hdb/driver/internal/errors"
+	p "github.com/rjohnson3/go-hdb/driver/internal/protocol"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/levenshtein"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/x509"
+	"github.com/rjohnson3/go-hdb/driver/sqltrace"
+	"github.com/rjohnson3/go-hdb/driver/unicode/cesu8"
 	"golang.org/x/text/transform"
 )
 
@@ -812,7 +812,7 @@ func (s *stmt) QueryContext(ctx context.Context, nvargs []driver.NamedValue) (ro
 	}
 
 	if s.pr.isProcedureCall() {
-//		return nil, fmt.Errorf("invalid procedure call %s - please use Exec instead", s.query)
+		//		return nil, fmt.Errorf("invalid procedure call %s - please use Exec instead", s.query)
 	}
 
 	done := make(chan struct{})

@@ -6,7 +6,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/SAP/go-hdb/driver/internal/logflag"
+	"github.com/rjohnson3/go-hdb/driver/internal/logflag"
 )
 
 var protocolTrace = log.New(io.Discard, "hdb protocol ", log.Ldate|log.Ltime)

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/SAP/go-hdb/driver"
+	"github.com/rjohnson3/go-hdb/driver"
 )
 
 func testTransactionCommit(db *sql.DB, t *testing.T) {

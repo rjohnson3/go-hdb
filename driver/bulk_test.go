@@ -248,7 +248,7 @@ func testBulkGeo(conn *sql.Conn, t *testing.T) {
 		t.Fatal(err)
 	}
 	/*
-		see https://github.com/SAP/go-hdb/issues/71
+		see https://github.com/rjohnson3/go-hdb/issues/71
 		- read rows to double check that geometry field attributes can be read
 		- protocol return type is tcStGeometry (not tcLocator)
 	*/

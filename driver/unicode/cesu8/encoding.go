@@ -7,7 +7,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/SAP/go-hdb/driver/internal/errors"
+	"github.com/rjohnson3/go-hdb/driver/internal/errors"
 	"golang.org/x/text/transform"
 )
 

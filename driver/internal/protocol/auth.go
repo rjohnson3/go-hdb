@@ -3,9 +3,9 @@ package protocol
 import (
 	"fmt"
 
-	"github.com/SAP/go-hdb/driver/internal/protocol/auth"
-	"github.com/SAP/go-hdb/driver/internal/protocol/encoding"
-	"github.com/SAP/go-hdb/driver/internal/protocol/x509"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/auth"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/encoding"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/x509"
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"
 )

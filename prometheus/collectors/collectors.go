@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SAP/go-hdb/driver"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/rjohnson3/go-hdb/driver"
 )
 
 const namespace = "go_hdb"

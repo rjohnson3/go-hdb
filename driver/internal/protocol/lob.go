@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/SAP/go-hdb/driver/internal/protocol/encoding"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/encoding"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/SAP/go-hdb/driver"
-	"github.com/SAP/go-hdb/driver/unicode/cesu8"
+	"github.com/rjohnson3/go-hdb/driver"
+	"github.com/rjohnson3/go-hdb/driver/unicode/cesu8"
 	"golang.org/x/text/transform"
 )
 

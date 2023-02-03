@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/SAP/go-hdb/driver/internal/protocol/julian"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/julian"
 )
 
 // ErrUint64OutOfRange means that a uint64 exceeds the size of a int64.

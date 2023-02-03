@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/SAP/go-hdb/driver"
+	"github.com/rjohnson3/go-hdb/driver"
 )
 
 // BytesLob defines a []byte based data type for scanning Lobs.

@@ -7,7 +7,7 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/SAP/go-hdb/driver"
+	"github.com/rjohnson3/go-hdb/driver"
 )
 
 // ExampleDB shows hot to print extended database statistics with the help of

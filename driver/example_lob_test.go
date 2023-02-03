@@ -13,7 +13,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/SAP/go-hdb/driver"
+	"github.com/rjohnson3/go-hdb/driver"
 )
 
 // ExampleLobRead reads data from a largs data object database field into a bytes.Buffer.

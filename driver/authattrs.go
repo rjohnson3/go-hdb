@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	p "github.com/SAP/go-hdb/driver/internal/protocol"
-	"github.com/SAP/go-hdb/driver/internal/protocol/x509"
+	p "github.com/rjohnson3/go-hdb/driver/internal/protocol"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/x509"
 )
 
 // authAttrs is holding authentication relevant attributes.

@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/SAP/go-hdb/driver/internal/logflag"
+	"github.com/rjohnson3/go-hdb/driver/internal/logflag"
 )
 
 // Trace is the sqlTrace logging instance.

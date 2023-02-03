@@ -5,7 +5,7 @@ import (
 	"log"
 
 	// Register hdb driver.
-	_ "github.com/SAP/go-hdb/driver"
+	_ "github.com/rjohnson3/go-hdb/driver"
 )
 
 const (

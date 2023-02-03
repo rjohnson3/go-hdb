@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SAP/go-hdb/driver/dial"
-	p "github.com/SAP/go-hdb/driver/internal/protocol"
-	"github.com/SAP/go-hdb/driver/unicode/cesu8"
+	"github.com/rjohnson3/go-hdb/driver/dial"
+	p "github.com/rjohnson3/go-hdb/driver/internal/protocol"
+	"github.com/rjohnson3/go-hdb/driver/unicode/cesu8"
 	"golang.org/x/exp/maps"
 	"golang.org/x/text/transform"
 )

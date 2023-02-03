@@ -22,8 +22,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	p "github.com/SAP/go-hdb/driver/internal/protocol"
-	"github.com/SAP/go-hdb/driver/spatial"
+	p "github.com/rjohnson3/go-hdb/driver/internal/protocol"
+	"github.com/rjohnson3/go-hdb/driver/spatial"
 )
 
 func dttCreateTable(db *sql.DB, column string) (Identifier, error) {

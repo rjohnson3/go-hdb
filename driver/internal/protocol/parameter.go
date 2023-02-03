@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/SAP/go-hdb/driver/internal/protocol/encoding"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/encoding"
 	"golang.org/x/text/transform"
 )
 

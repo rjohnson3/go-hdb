@@ -7,7 +7,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/SAP/go-hdb/driver/unicode/cesu8"
+	"github.com/rjohnson3/go-hdb/driver/unicode/cesu8"
 	"golang.org/x/text/transform"
 )
 

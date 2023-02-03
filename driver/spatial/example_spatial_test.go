@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/SAP/go-hdb/driver/spatial"
+	"github.com/rjohnson3/go-hdb/driver/spatial"
 )
 
 // ExampleGeometry demonstrates the conversion of a geospatil object to

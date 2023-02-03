@@ -1,7 +1,7 @@
 package sqltrace_test
 
 import (
-	"github.com/SAP/go-hdb/driver/sqltrace"
+	"github.com/rjohnson3/go-hdb/driver/sqltrace"
 )
 
 func Example() {

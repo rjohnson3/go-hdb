@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/SAP/go-hdb/driver"
+	"github.com/rjohnson3/go-hdb/driver"
 )
 
 // dsn creates data source name with the help of the net/url package.

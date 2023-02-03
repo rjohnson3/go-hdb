@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: go-hdb
 Upstream-Contact: stefan.miller_at_sap.com
-Source: https://github.com/SAP/go-hdb
+Source: https://github.com/rjohnson3/go-hdb
 Disclaimer: The code in this project may include calls to APIs (“API Calls”) of
  SAP or third-party products or services developed outside of this project
  (“External Products”).

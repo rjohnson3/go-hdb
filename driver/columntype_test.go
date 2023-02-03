@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	p "github.com/SAP/go-hdb/driver/internal/protocol"
+	p "github.com/rjohnson3/go-hdb/driver/internal/protocol"
 )
 
 func TestColumnType(t *testing.T) {

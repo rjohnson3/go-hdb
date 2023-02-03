@@ -5,7 +5,7 @@ import (
 	"io"
 	"reflect"
 
-	p "github.com/SAP/go-hdb/driver/internal/protocol"
+	p "github.com/rjohnson3/go-hdb/driver/internal/protocol"
 )
 
 // check if rows types do implement all driver row interfaces.

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/SAP/go-hdb/driver/internal/protocol/encoding"
+	"github.com/rjohnson3/go-hdb/driver/internal/protocol/encoding"
 )
 
 // Message header (size: 32 bytes)

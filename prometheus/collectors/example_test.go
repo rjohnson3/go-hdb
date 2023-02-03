@@ -11,11 +11,11 @@ import (
 	"os/signal"
 	"sync"
 
-	"github.com/SAP/go-hdb/driver"
-	drivercollectors "github.com/SAP/go-hdb/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/rjohnson3/go-hdb/driver"
+	drivercollectors "github.com/rjohnson3/go-hdb/prometheus/collectors"
 )
 
 func formatHTTPAddr(addr string) string {
