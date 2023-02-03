@@ -1346,7 +1346,8 @@ func (c *conn) _prepare(query string) (*prepareResult, error) {
 	}); err != nil {
 		return nil, err
 	}
-	pr.fc = c.pr.FunctionCode()
+	//pr.fc = c.pr.FunctionCode()
+	pr.fc = 5 // Select
 	return pr, nil
 }
 
