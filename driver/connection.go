@@ -812,7 +812,7 @@ func (s *stmt) QueryContext(ctx context.Context, nvargs []driver.NamedValue) (ro
 	}
 
 	if s.pr.isProcedureCall() {
-		return nil, fmt.Errorf("invalid procedure call %s - please use Exec instead", s.query)
+//		return nil, fmt.Errorf("invalid procedure call %s - please use Exec instead", s.query)
 	}
 
 	done := make(chan struct{})
